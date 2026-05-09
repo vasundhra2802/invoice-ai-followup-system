@@ -2,23 +2,57 @@
 
 ## Project Overview
 
-This project is an AI-powered backend automation system that helps businesses automatically generate professional invoice follow-up emails for unpaid invoices.
+This project is an AI-powered backend automation system that helps businesses automate invoice follow-up emails for unpaid invoices.
 
-The system stores invoice records, tracks overdue invoices, escalates email tone based on overdue duration, and generates personalized reminder emails automatically.
+The system stores invoice information, tracks overdue invoices, generates intelligent follow-up emails with automatic tone escalation, and simulates email sending using APIs.
+
+This project was developed using FastAPI, SQLAlchemy, and SQLite.
 
 ---
 
 # Features
 
-- Create and store invoice records
-- Fetch all invoices from database
-- Automatic overdue tracking
-- Tone escalation engine
-- AI-style professional email generation
-- Mock email sending (Dry Run)
-- Audit logging system
-- REST APIs using FastAPI
-- SQLite database integration
+## Invoice Management
+- Create invoices
+- Store invoice details in SQLite database
+- Retrieve all invoices
+- Track unpaid invoices
+
+---
+
+## AI-Based Email Generation
+
+The system automatically generates professional follow-up emails based on overdue duration.
+
+### Tone Escalation Logic
+
+| Days Overdue | Tone |
+|--------------|------|
+| 0–3 Days | Friendly Reminder |
+| 4–7 Days | Polite Follow-Up |
+| 8+ Days | Final Warning |
+
+---
+
+## Mock Email Sending
+
+A mock API endpoint simulates email sending functionality for testing purposes.
+
+---
+
+## Email Logging
+
+Generated follow-up emails are stored in:
+
+email_logs.txt
+
+Logs include:
+- Invoice ID
+- Client Name
+- Tone Used
+- Stage
+- Days Overdue
+- Timestamp
 
 ---
 
@@ -26,145 +60,76 @@ The system stores invoice records, tracks overdue invoices, escalates email tone
 
 - Python
 - FastAPI
-- SQLite
 - SQLAlchemy
-- Swagger UI
+- SQLite
 - Uvicorn
 
 ---
 
-# Project Architecture
+# Project Structure
 
-Invoice Input  
-↓  
-FastAPI Backend  
-↓  
-SQLite Database  
-↓  
-Tone Escalation Logic  
-↓  
-Email Generation Engine  
-↓  
-Mock Send + Audit Logs  
+invoice-ai-followup-system/
+
+├── backend/
+
+│   ├── main.py
+
+│   ├── database.py
+
+│   ├── models.py
+
+│   ├── schemas.py
+
+│   ├── requirements.txt
+
+│   ├── invoice.db
+
+│   ├── email_logs.txt
+
+│   ├── .env.example
+
+│
+
+├── README.md
 
 ---
 
-# Tone Escalation Logic
+# Database Schema
 
-| Days Overdue | Tone |
-|---|---|
-| 1–7 Days | Warm & Friendly |
-| 8–14 Days | Polite but Firm |
-| 15–21 Days | Formal & Serious |
-| 22–30 Days | Stern & Urgent |
-| 30+ Days | Escalation Flag |
+## Invoice Table
+
+| Field | Type |
+|------|------|
+| id | Integer |
+| client_name | String |
+| client_email | String |
+| invoice_number | String |
+| amount | Float |
+| due_date | Date |
+| status | String |
+| followup_count | Integer |
+| payment_link | String |
 
 ---
 
 # API Endpoints
 
-## Home API
+## 1. Create Invoice
 
-GET /
-
-Returns backend status.
-
----
-
-## Create Invoice
+### Endpoint
 
 POST /invoices
 
-Stores invoice in database.
+### Example Request
 
----
-
-## Get All Invoices
-
-GET /invoices
-
-Returns all stored invoices.
-
----
-
-## Generate Email
-
-GET /generate-email/{invoice_id}
-
-Generates AI-style follow-up email.
-
----
-
-## Mock Send Email
-
-POST /mock-send/{invoice_id}
-
-Simulates sending email in dry-run mode.
-
----
-
-# Database Fields
-
-- Client Name
-- Client Email
-- Invoice Number
-- Amount
-- Due Date
-- Status
-- Follow-Up Count
-- Payment Link
-
----
-
-# Audit Logging
-
-Every generated email is stored in `email_logs.txt` with:
-
-- Timestamp
-- Invoice ID
-- Client Name
-- Tone Used
-- Stage
-- Days Overdue
-- Send Status
-
----
-
-# Security Mitigations
-
-- `.env` file used for sensitive configurations
-- `.gitignore` protects secret files
-- Local SQLite database used
-- Dry-run mode avoids accidental email delivery
-- Structured outputs reduce hallucination risk
-
----
-
-# LLM / AI Design
-
-The current prototype uses rule-based AI-style email generation.
-
-The architecture is designed for future integration with:
-- OpenAI GPT-4
-- Gemini API
-- LangChain
-
----
-
-# Future Improvements
-
-- Real SMTP Integration
-- Frontend Dashboard
-- Email Scheduling
-- AI Sentiment Optimization
-- Analytics Dashboard
-- Multi-user Support
-
----
-
-# Setup Instructions
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
+```json
+{
+  "client_name": "ABC Pvt Ltd",
+  "client_email": "client@example.com",
+  "invoice_number": "INV101",
+  "amount": 25000,
+  "due_date": "2026-05-01",
+  "status": "Unpaid",
+  "followup_count": 1,
+  "payment_link": "https://payment-link.com"
+}
