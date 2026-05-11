@@ -1,0 +1,342 @@
+
+Timestamp: 2026-05-10 17:43:09.697442
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 17:52:52.123782
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 17:52:59.608914
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 17:52:59.617046
+Invoice ID: 1
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
+
+Timestamp: 2026-05-10 17:58:24.284853
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 17:58:35.628254
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 17:58:35.628891
+Invoice ID: 1
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
+
+Timestamp: 2026-05-10 18:04:15.392183
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 18:04:29.126046
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 18:04:29.130805
+Invoice ID: 1
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
+
+Timestamp: 2026-05-10 18:30:05.802102
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 18:30:18.708013
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 18:30:18.708882
+Invoice ID: 1
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
+
+Timestamp: 2026-05-10 19:02:07.812751
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 19:02:22.470625
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-10 19:02:22.473415
+Invoice ID: 1
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
+
+Timestamp: 2026-05-10 19:07:44.590618
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 20
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 18:46:57.877750
+Invoice ID: 8
+Client: Rajesh Kapoor
+Invoice Number: INV-001
+Amount: 45000
+Due Date: 2026-05-01
+Tone: Polite but Firm
+Stage: 2nd Follow-Up
+Days Overdue: 10
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 18:47:18.160618
+Invoice ID: 8
+Client: Rajesh Kapoor
+Invoice Number: INV-001
+Amount: 45000
+Due Date: 2026-05-01
+Tone: Polite but Firm
+Stage: 2nd Follow-Up
+Days Overdue: 10
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 18:49:40.652455
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 21
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 18:49:40.653102
+Invoice ID: 1
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
+
+Timestamp: 2026-05-11 19:17:47.757674
+Invoice ID: 3
+Client: Rajesh Kapoor
+Invoice Number: INV-2026-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 21
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 19:18:07.913026
+Invoice ID: 3
+Client: Rajesh Kapoor
+Invoice Number: INV-2026-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 21
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 19:18:09.778045
+Invoice ID: 3
+Client: Rajesh Kapoor
+Invoice Number: INV-2026-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 21
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 19:18:09.780296
+Invoice ID: 3
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
+
+Timestamp: 2026-05-11 19:58:48.053603
+Invoice ID: 8
+Client: Rajesh Kapoor
+Invoice Number: INV-001
+Amount: 45000
+Due Date: 2026-05-01
+Tone: Polite but Firm
+Stage: 2nd Follow-Up
+Days Overdue: 10
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 22:07:17.268730
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 21
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 22:07:27.657573
+Invoice ID: 2
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 21
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 22:07:42.413502
+Invoice ID: 4
+Client: Rajesh Kapoor
+Invoice Number: INV-2026-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 21
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 22:07:42.416934
+Invoice ID: 4
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
+
+Timestamp: 2026-05-11 23:25:18.738118
+Invoice ID: 1
+Client: Rajesh Kapoor
+Invoice Number: INV-2024-001
+Amount: 45000
+Due Date: 2026-04-20
+Tone: Formal & Serious
+Stage: 3rd Follow-Up
+Days Overdue: 21
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 23:25:24.592172
+Invoice ID: 8
+Client: Rajesh Kapoor
+Invoice Number: INV-001
+Amount: 45000
+Due Date: 2026-05-01
+Tone: Polite but Firm
+Stage: 2nd Follow-Up
+Days Overdue: 10
+Status: Generated
+-----------------------------------
+
+Timestamp: 2026-05-11 23:25:24.592643
+Invoice ID: 8
+Status: Mock Sent
+Send Mode: Dry Run
+-----------------------------------
